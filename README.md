@@ -107,17 +107,20 @@ O app utiliza **Expo Notifications**, então:
 
 ## 📸 Screenshots
 
+### 🙍🏻‍♂️ Login
+![Login](./assets/screens/login.jpeg)
+
 ### 🏠 Tela inicial
-![Home](./assets/screens/home.png)
+![Home](./assets/screens/dashboard.jpeg)
 
 ### 🍔 Detalhes do produto
-![Detalhes](./assets/screens/details.png)
+![Detalhes](./assets/screens/details.jpeg)
 
 ### 🛒 Carrinho
-![Carrinho](./assets/screens/cart.png)
+![Carrinho](./assets/screens/cart.jpeg)
 
 ### 💳 Checkout
-![Checkout](./assets/screens/checkout.png)
+![Checkout](./assets/screens/checkout.jpeg)
 
 ---
 
