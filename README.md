@@ -137,17 +137,6 @@ npm install -g eas-cli
 eas build
 ```
 
----
-
-## 🧪 Melhorias futuras
-
-- Integração com API real
-- Autenticação de usuários
-- Pagamentos reais (Stripe / Pix)
-- Histórico de pedidos
-
----
-
 ## 👨‍💻 Autor
 
 Pedro Viana Castilhos
