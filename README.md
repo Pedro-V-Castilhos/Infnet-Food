@@ -1,11 +1,160 @@
-# Sample Snack app
+# 📱 Food Delivery App (Expo)
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+Aplicação mobile desenvolvida com **React Native + Expo**, simulando um fluxo de pedidos em um app de delivery de comida.
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+---
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+## 🚀 Funcionalidades
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+- 📋 Listagem de produtos
+- 🔍 Visualização de detalhes
+- 🛒 Carrinho de compras
+- 💳 Finalização de pedido
+- 🔔 Notificações locais (Expo Notifications)
+- 🌙 Tema claro/escuro
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+---
+
+## 🛠️ Tecnologias utilizadas
+
+- React Native
+- Expo
+- React Navigation
+- Context API
+- Expo Notifications
+
+---
+
+## 📂 Estrutura do projeto
+
+```
+📦 root
+ ┣ 📂 assets        # Imagens e arquivos estáticos
+ ┣ 📂 clients       # Configurações de cliente/API
+ ┣ 📂 components    # Componentes reutilizáveis
+ ┣ 📂 mocks         # Dados mockados (produtos, usuários)
+ ┣ 📂 routers       # Configuração de rotas/navegação
+ ┣ 📂 storage       # Persistência/local storage
+ ┣ 📜 App.js        # Arquivo principal
+ ┣ 📜 index.js      # Entry point
+ ┣ 📜 app.json      # Configuração do Expo
+ ┣ 📜 package.json  # Dependências
+```
+
+---
+
+## ⚙️ Pré-requisitos
+
+Antes de rodar o projeto, você precisa ter instalado:
+
+- Node.js
+- Expo CLI
+
+Instalar Expo CLI:
+
+```bash
+npm install -g expo-cli
+```
+
+---
+
+## ▶️ Como executar o projeto
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/seu-usuario/seu-repo.git
+```
+
+2. Acesse a pasta:
+
+```bash
+cd seu-repo
+```
+
+3. Instale as dependências:
+
+```bash
+npm install
+```
+
+4. Inicie o projeto:
+
+```bash
+npx expo start
+```
+
+---
+
+## 📱 Rodando no dispositivo
+
+Você pode rodar o app de 3 formas:
+
+- 📲 App Expo Go (Android/iOS)
+- 🤖 Emulador Android
+- 🍎 Simulador iOS
+
+---
+
+## 🔔 Notificações
+
+O app utiliza **Expo Notifications**, então:
+
+- Em dispositivos físicos: funciona normalmente
+- Em emuladores: pode não funcionar corretamente
+
+---
+
+## 📸 Screenshots
+
+### 🏠 Tela inicial
+![Home](./assets/screens/home.png)
+
+### 🍔 Detalhes do produto
+![Detalhes](./assets/screens/details.png)
+
+### 🛒 Carrinho
+![Carrinho](./assets/screens/cart.png)
+
+### 💳 Checkout
+![Checkout](./assets/screens/checkout.png)
+
+---
+
+## 📦 Build para produção
+
+Para gerar build do app:
+
+```bash
+npx expo prebuild
+npx expo run:android
+```
+
+Ou usando EAS:
+
+```bash
+npm install -g eas-cli
+eas build
+```
+
+---
+
+## 🧪 Melhorias futuras
+
+- Integração com API real
+- Autenticação de usuários
+- Pagamentos reais (Stripe / Pix)
+- Histórico de pedidos
+
+---
+
+## 👨‍💻 Autor
+
+Pedro Viana Castilhos
+
+---
+
+## 📄 Licença
+
+Este projeto é apenas para fins educacionais.
+
